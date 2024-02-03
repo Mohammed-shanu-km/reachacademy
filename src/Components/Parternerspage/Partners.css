@@ -1,0 +1,22 @@
+.partner-container{
+    padding: 0px 150px 0px 150px;
+}
+.partner-content{
+    text-align: center;
+}
+.partner-content h1{
+    font-size: 4rem;
+    line-height: 1.1;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #273253;
+    letter-spacing: 1px;
+}
+.partners-icon-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  
+}

@@ -1,0 +1,35 @@
+.hero-container {
+  padding: 0px 150px 0px 200px;
+}
+.hero-contents {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content {
+  padding-top: 100px;
+}
+.hero-image {
+  padding: 40px;
+  position: relative;
+ 
+}
+.hero-content h1 {
+  font-size: 6rem;
+  line-height: 1.1;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #273253;
+  letter-spacing: 1px;
+}
+
+.hero-content p {
+  margin-top: 20px;
+
+  font-size: 20px;
+  font-weight: 500;
+
+  line-height: 1.5;
+
+  color: #000000;
+}

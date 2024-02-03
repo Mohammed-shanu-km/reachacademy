@@ -1,0 +1,9 @@
+.icon-container{
+    padding: 100px 150px 100px 150px;
+}
+.icon-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
