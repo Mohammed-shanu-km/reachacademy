@@ -21,10 +21,12 @@ const Footer = () => {
                 of type and scrambled it to make a type specimen book.
               </p>
               <div className="footer-icon">
-                <FaFacebook className="reach" /> <AiFillInstagram  className="reach" />
-                <FaYoutube  className="reach" /> <FaTwitter  className="reach" />
+                <FaFacebook className="reach" />{" "}
+                <AiFillInstagram className="reach" />
+                <FaYoutube className="reach" /> <FaTwitter className="reach" />
               </div>
             </div>
+
             <div className="footer-card2">
               <h1>About</h1>
               <a>Menu</a>
@@ -33,12 +35,13 @@ const Footer = () => {
               <a>Helsp&support</a>
             </div>
             <div className="footer-card2">
-              <h1>About</h1>
+              <h1>Company</h1>
               <a>How we work</a>
               <a>Terms of service</a>
               <a>Pricing</a>
               <a>FAQ</a>
             </div>
+
             <div className="footer-card3">
               <h1>Contact Us</h1>
               <p>

@@ -34,27 +34,44 @@
   gap: 6rem;
   column-gap: 3rem;
 }
+/* .object-card-main {
+  margin-top: 100px;
+} */
 .object-card-main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3rem;
   margin-top: 100px;
 }
 .card {
-  background-color: white;
+  /* background-color: white; */
   margin-bottom: 50px;
-
-}
-.card-image {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   display: flex;
   justify-content: center;
+  position: relative;
+  padding-top: 60px;
+  margin-top: 80px;
+  border-radius: 20px;
+}
+.card-image {
+  /* display: flex;
+  justify-content: center;
   align-items: center;
-  margin-bottom: -40px;
+  margin-bottom: -40px; */
+  top: -100px;
+  position: absolute;
+  z-index: 9;
 }
 .card-content {
   /* padding-top: 100px; */
   border-radius: 20px;
   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
   padding: 50px 20px 50px 20px;
-  height:300px ;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  /* height: 300px; */
+  /* width: 400px;  */
+ 
 }
 .card-content h1 {
   text-align: center;
@@ -68,4 +85,70 @@
   font-size: 16px;
   color: #000000;
   font-weight: 500;
+}
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .objective-container {
+    padding: 30px 30px 30px 30px;
+  }
+  .objective-content p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000000;
+  }
+  .objective-content h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #273253;
+    letter-spacing: 1px;
+  }
+  .object-card-main {
+    margin-top: 50px;
+  }
+
+  .card-content p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+  }
+  .object-first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-content {
+    /* padding-top: 100px; */
+    border-radius: 20px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    padding: 50px 20px 50px 20px;
+    /* height: 270px; */
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  .object-card-main {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3rem;
+    margin-top: 100px;
+  }
 }

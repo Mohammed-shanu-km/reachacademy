@@ -1,20 +1,35 @@
-.para-container{
-    padding: 100px 150px 100px 150px;
-
+.para-container {
+  padding: 100px 150px 100px 150px;
 }
-.para{
-    text-align: center;
+.para {
+  text-align: center;
 }
-.para p{
-    
-        margin-top: 20px;
-      
-        font-size: 23px;
-        font-weight: 500;
-      
-        line-height: 1.5;
-      
-        color: #000000;
-      
+.para p {
+  margin-top: 20px;
 
+  font-size: 23px;
+  font-weight: 500;
+
+  line-height: 1.5;
+
+  color: #000000;
+}
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .para-container {
+    padding: 30px 30px 30px 30px;
+  }
+  .para p {
+    margin-top: 320px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    color: #000000;
+  }
 }

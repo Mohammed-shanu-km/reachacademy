@@ -1,80 +1,102 @@
-.footer-main{
-    background-color: #273253;
+.footer-main {
+  background-color: #273253;
 }
-.footer-container{
-    padding: 50px 150px 50px 150px;
+.footer-container {
+  padding: 50px 150px 50px 150px;
 }
-.footer-card-main{
+.footer-card-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+.footer-card1 {
+  width: 60%;
+
+  gap: 10px;
+}
+.footer-card1 p {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+.footer-card2 {
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-card3 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-card2 h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+.footer-card2 a {
+  font-size: 16px;
+  list-style: none;
+  color: white;
+  list-style-type: none;
+}
+.footer-card3 h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+.footer-card3 p {
+  font-size: 16px;
+  list-style: none;
+  color: white;
+  list-style-type: none;
+}
+.footer-icon {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.reach {
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .footer-container {
+    padding: 30px 30px 30px 30px;
+  }
+  .footer-card-main {
     display: flex;
     justify-content: space-between;
     gap: 50px;
     align-items: center;
-   
- 
-    
-}
-.footer-card1{
-    width: 60%;
-  
-   
-   
-   
-    gap: 10px;
-   
-}
-.footer-card1 p{
-    text-align: left;
-    margin-top: 10px;
-    font-size: 15px;
-    color: white;
-    font-weight: 400;
-    line-height: 1.8;
 
-}
-.footer-card2{
-   
-    width: 20%;
-    
+    flex-wrap: wrap;
+  }
+  .footer-card1 {
+    width: 100%;
+    gap: 10px;
+  }
+  .footer-card2 {
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
-.footer-card3{
-    width:40% ;
-   display: flex;
-   flex-direction: column;
-   gap: 15px;
-}
-.footer-card2 h1{
-    font-size: 2.5rem;
-    color: white;
-}
-.footer-card2  a{
-    font-size: 16px;
-   list-style: none;
-   color: white;
-   list-style-type: none;
-}
-.footer-card3 h1{
-    font-size: 2.5rem;
-    color: white;
-
-}
-.footer-card3 p{
-    font-size: 16px;
-    list-style: none;
-    color: white;
-    list-style-type: none;
-
-}
-.footer-icon{
+  }
+  .footer-card3 {
+    width: 100%;
     display: flex;
- gap: 20px;
- margin-top: 20px;
-
-}
-.reach{
-    color: white;
-    height: 20px;
-    width: 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
